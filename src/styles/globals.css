@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.formControlContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formInput {
+    border-radius: 0.2rem;
+    padding: 0.75rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    letter-spacing: 0.5em;
+    border-width: 1px;
+}
